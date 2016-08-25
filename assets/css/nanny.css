@@ -1,0 +1,653 @@
+/********Custom*************/
+/***********Topbar & Navbar & Footer **********/
+.ct-topbar--default,
+.ct-topbar--stickyToTop,
+.ct-navbar--sticky,
+footer,
+.ct-navbarMobile,
+.ct-menuMobile {
+  background-color: #FFF !important; 
+}
+
+/*Laranja logo: #f6b01d    ;   cinza original  #333333*/
+/*Laranja normal alterna com laranja claro --> rgba(246, 176, 29, 0.42); --> #f8daa8*/
+/*Ver escuro do logo: #1fad4b     verde claro: #bed235     verde q pareceu melhor: #398e4b */
+
+.ct-topbar a:hover {
+  color: #f26d7d;
+}
+.ct-topbar a:hover i {
+  color: #f26d7d;
+}
+.ct-switcher-language .dropdown-menu li a {
+  font-family: 'Lato', sans-serif;
+}
+/******typography**********/
+body {
+  font-family: 'Lato', sans-serif;
+  color: #4d4d4d;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Varela Round', sans-serif;
+  color: #4d4d4d;
+}
+h2 {
+  font-size: 18px;
+}
+span {
+  font-family: 'Varela Round', sans-serif;
+  color: #f6b01d; 
+}
+cccLaranja logo: #f6b01d*/
+p {
+  font-family: 'Lato', sans-serif;
+  color: #4d4d4d;
+}
+.ct-glyph--text p {
+  font-family: 'Varela Round', sans-serif;
+}
+a {
+  color: #f26d7d;
+}
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+.ct-motive {
+  background-color: #f26d7d;
+}
+/**********HEADER************/
+.ct-header-text h1,
+.ct-header-text h2,
+.ct-header-text h3,
+.ct-header-text h4,
+.ct-header-text h5,
+.ct-header-text h6 {
+  line-height: 110px;
+  white-space: nowrap;
+  font-family: 'Sacramento', cursive;
+  color: #f26d7d;
+}
+.ct-header-text h1 {
+  font-size: 120px;
+}
+.ct-header-text .ct-u-hdr2 {
+  font-size: 30px;
+  line-height: 30px;
+  color: #fff;
+}
+.ct-u-hdr2 {
+  font-family: 'Varela Round', sans-serif !important;
+}
+.ct-header-multipg {
+  padding-top: 120px;
+}
+.ct-header-multipg h1,
+.ct-header-multipg h2,
+.ct-header-multipg h3,
+.ct-header-multipg h4,
+.ct-header-multipg h5 {
+  font-size: 70px;
+  line-height: 70px;
+  font-family: 'Sacramento', cursive;
+  color: #f26d7d;
+}
+.ct-header-multipg .ct-u-hdr2 {
+  font-size: 70px;
+  line-height: 43px;
+  color: #fff;
+}
+/*******Menu******/
+.ct-navbar--transparent .navbar-nav > li > a:hover,
+.ct-navbar--solid .navbar-nav > li > a:hover {
+  border-bottom: 2px solid #f26d7d;
+}
+.ct-navbar--transparent .active a,
+.ct-navbar--solid .active a {
+  border-bottom: 2px solid #f26d7d;
+}
+.dropdown-menu span {
+  font-family: 'Lato', sans-serif;
+}
+.dropdown-menu li > a {
+  font-family: 'Lato', sans-serif;
+}
+.dropdown-menu li > a:hover {
+  color: #fff !important;
+  background-color: #f26d7d !important;
+}
+.dropdown-menu p {
+  font-family: 'Varela Round', sans-serif;
+}
+.ct-navbar-item--active {
+  border-bottom: 2px solid #f26d7d;
+}
+/*******buttons********/
+.btn,
+.btn-primary {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  background-color: #f26d7d;
+  border: 1px solid #f26d7d;
+}
+.btn:hover,
+.btn-primary:hover,
+.btn:active,
+.btn-primary:active,
+.btn:focus,
+.btn-primary:focus {
+  background-color: #ccc; 
+  border: 1px solid #f6b01d; 
+  /*Laranja logo: #f6b01d*/
+ccc: #fff;
+  /*Laranja logo: #f6b01d*/
+}
+.btn--radius {
+  border-radius: 6px;
+}
+/******Accordion*******/
+.panel-title {
+  font-family: 'Lato', sans-serif;
+}
+.panel-title a.collapsed {
+  color: #f26d7d;
+}
+/*******Tabs*******/
+.nav-tabs li a {
+  color: #f26d7d;
+}
+.nav-tabs li a:hover,
+.nav-tabs li a:active,
+.nav-tabs li a:focus {
+  background: transparent;
+}
+/********table**********/
+table th {
+  background-color: #f26d7d;
+  color: #fff;
+}
+table caption {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 18px;
+}
+table a {
+  color: #f6b01d; 
+}
+cccLaranja logo: #f6b01d*/
+table a:hover {
+  color: #f26d7d;
+}
+/*********Pricing Tables *********/
+.ct-pricing .ct-motive span {
+  color: #fff;
+}
+.ct-pricing span {
+  font-family: 'Lato', sans-serif;
+}
+.ct-pricing .ct-pricebox span {
+  font-family: 'Varela Round', sans-serif !important;
+}
+.ct-pricing .ct-u-display-table--cell .ct-currency {
+  font-size: 44px;
+}
+.ct-pricing .ct-u-display-table--cell .ct-price {
+  font-size: 70px;
+}
+.ct-pricing .ct-u-display-table--cell .ct-overprice {
+  font-size: 36px;
+}
+/******Sections*********/
+.ct-pageSectionHeader h1,
+.ct-pageSectionHeader h2,
+.ct-pageSectionHeader h3,
+.ct-pageSectionHeader h4,
+.ct-pageSectionHeader h5,
+.ct-pageSectionHeader h6 {
+  font-size: 72px !important;
+  line-height: 40px;
+  font-family: 'Sacramento', cursive;
+  color: #4d4d4d;
+}
+.ct-pageSectionHeader .ct-u-hdr3 {
+  color: #f26d7d;
+  font-size: 60px;
+  line-height: 60px;
+}
+.ct-u-hdr3 {
+  font-family: 'Varela Round', sans-serif !important;
+}
+.ct-background-circle {
+  background: #f26d7d;
+  position: relative;
+  padding: 28px;
+}
+.ct-background-circle i {
+  height: 75px;
+  width: auto;
+  font-size: 75px;
+}
+.ct-text-parallax {
+  text-transform: uppercase;
+}
+.ct-u-color--reverse h1,
+.ct-u-color--reverse h2,
+.ct-u-color--reverse h3,
+.ct-u-color--reverse h4,
+.ct-u-color--reverse h5,
+.ct-u-color--reverse h6 {
+  color: #f26d7d;
+}
+.ct-u-color--reverse .ct-u-hdr2,
+.ct-u-color--reverse .ct-u-hdr3 {
+  color: #4d4d4d;
+}
+.ct-js-magnificPortfolioPopupGroup h2 {
+  font-family: 'Lato', sans-serif;
+}
+#about h2 {
+  font-size: 24px;
+}
+/*******Counter*********/
+.ct-counterBox .ct-counterBox-number {
+  font-size: 72px;
+  color: #f26d7d;
+}
+.ct-counterBox h1,
+.ct-counterBox h2,
+.ct-counterBox h3,
+.ct-counterBox h4,
+.ct-counterBox h5,
+.ct-counterBox h6 {
+  font-family: 'Lato', sans-serif;
+  color: #f6b01d; 
+}
+cccLaranja logo: #f6b01d*/
+.ct-gallery p {
+  font-weight: 400;
+  color: #000000;
+}
+/*******Isotope*********/
+.ct-isotope-navigation a:hover {
+  border-bottom: 2px solid #f26d7d;
+}
+.ct-isotope-navigation .active {
+  border-bottom: 2px solid #f26d7d;
+}
+.ct-js-magnificPortfolioPopupGroup h2 {
+  font-family: 'Varela Round', sans-serif;
+}
+.ct-u-hdr3 {
+  font-family: 'Varela Round', sans-serif !important;
+}
+.ct-textBox--withButton span {
+  font-size: 24px;
+}
+.ct-textBox {
+  font-family: 'Lato', sans-serif;
+}
+/**************Hover*******************/
+.ct-hover figcaption {
+  white-space: nowrap;
+}
+.ct-hover figcaption h1,
+.ct-hover figcaption h2,
+.ct-hover figcaption h3,
+.ct-hover figcaption h4,
+.ct-hover figcaption h5,
+.ct-hover figcaption h6 {
+  color: #4d4d4d;
+  word-spacing: 0;
+  font-size: 24px;
+}
+.ct-hover figcaption h1 i,
+.ct-hover figcaption h2 i,
+.ct-hover figcaption h3 i,
+.ct-hover figcaption h4 i,
+.ct-hover figcaption h5 i,
+.ct-hover figcaption h6 i {
+  color: #f26d7d;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 24px;
+}
+.ct-hover figcaption p {
+  color: #4d4d4d;
+  font-size: 16px;
+}
+/*******before&after*********/
+.twentytwenty-handle {
+  border: 3px solid #f26d7d;
+  background-color: #f26d7d;
+}
+.twentytwenty-left-arrow {
+  border-right: 6px ccc #f6b01d; 
+}
+/*Laranja logo: #f6b01d*/
+.twentytwenty-right-arrow {
+  border-left: 6px ccc #f6b01d; 
+}
+/*Laranja logo: #f6b01d*/
+.twentytwenty-horizontal .twentytwenty-handle:before,
+.twentytwenty-horizontal .twentytwenty-handle:after,
+.twentytwenty-vertical .twentytwenty-handle:before,
+.twentytwenty-vertical .twentytwenty-handle:after {
+  background: #f26d7d;
+  box-shadow: none;
+}
+/******Flexslider******/
+.flexslider li ul li {
+  text-transform: lowercase;
+}
+.flexslider .ct-text-signature span {
+  font-size: 18px;
+}
+/********contact**********/
+.ct-contactForm--type1 .contactForm .form-control {
+  border: 2px solid #f26d7d;
+  color: #cccccc;
+}
+.ct-contactForm--type1 .ct-form-group-label--float label {
+  color: #cccccc !important;
+}
+.ct-contactForm--type3 .contactForm .form-control {
+  background-color: #fff;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  color: #cccccc;
+}
+.ct-contactForm--type3 .contactForm .form-control:focus {
+  border: 1px solid #f26d7d;
+}
+.ct-contactForm--type3 .ct-form-group-label--float label {
+  color: #cccccc !important;
+}
+.ct-item--contact .ct-header--contact {
+  font-family: 'Lato', sans-serif;
+}
+.ct-item--contact .ct-socials--circle,
+.ct-item--contact .ct-socials--square,
+.ct-item--contact .ct-socials--square-rounded {
+  background-color: #f26d7d;
+  color: #fff;
+  padding: 8px;
+}
+.ct-item--contact .ct-socials--circle:hover,
+.ct-item--contact .ct-socials--square:hover,
+.ct-item--contact .ct-socials--square-rounded:hover {
+  color: #fff;
+  background-color: #ccc; 
+}
+/*Laranja logo: #f6b01d*/
+.ct-item--contact a:hover {
+  color: #f26d7d;
+}
+/*******Blog***********/
+.ct-articleBox-meta span {
+  font-family: 'Lato', sans-serif;
+}
+.ct-articleBox-meta span a:hover {
+  color: #f26d7d;
+}
+.ct-articleBox-titleBox h1,
+.ct-articleBox-titleBox h2,
+.ct-articleBox-titleBox h3,
+.ct-articleBox-titleBox h4,
+.ct-articleBox-titleBox h5,
+.ct-articleBox-titleBox h6 {
+  font-size: 24px;
+}
+.ct-articleBox-titleBox a h1:hover,
+.ct-articleBox-titleBox a h2:hover,
+.ct-articleBox-titleBox a h3:hover,
+.ct-articleBox-titleBox a h4:hover,
+.ct-articleBox-titleBox a h5:hover,
+.ct-articleBox-titleBox a h6:hover {
+  color: #f26d7d;
+}
+.ct-articleBox-button {
+  color: #f26d7d;
+  font-family: 'Lato', sans-serif;
+}
+.ct-articleBox-button:hover,
+.ct-articleBox-button:focus {
+  text-decoration: none;
+  color: inherit;
+}
+blockquote {
+  border-left: 4px solid #f26d7d;
+  font-family: 'Varela Round', sans-serif;
+}
+.ct-testimonials:before {
+  color: #f26d7d;
+}
+.ct-testimonials span {
+  font-family: 'Lato', sans-serif;
+}
+.ct-testimonials p {
+  font-family: 'Varela Round', sans-serif;
+  line-height: 34px;
+}
+.ct-blackquote-customStyle:after {
+  font-family: 'Varela Round', sans-serif;
+  content: '”';
+  top: 0;
+}
+.ct-testimonials:before {
+  font-family: 'Varela Round', sans-serif;
+  content: '“';
+  top: 48px;
+}
+.ct-testimonials--type2:before {
+  font-family: 'Varela Round', sans-serif;
+  content: '“';
+  top: 62px;
+}
+.pager li > a {
+  color: #f26d7d;
+  font-family: 'Lato', sans-serif;
+}
+.pager li > a:hover {
+  color: #333;
+}
+.pagination > li > a,
+.pagination-lg > li > a {
+  background-color: #fff;
+  color: #f26d7d;
+}
+.pagination > li > a:hover,
+.pagination-lg > li > a:hover {
+  background-color: #fff;
+  color: #333;
+}
+.pagination > .active a {
+  color: #f6b01d !ccc; 
+}
+/*Laranja logo: #f6b01d*/
+.pagination > .active:hover,
+.pagination > .active:focus,
+.pagination > .active:visited {
+  color: #f6b01d !ccc; 
+}
+/*Laranja logo: #f6b01d*/
+.select2-results .select2-highlighted {
+  background-color: #f26d7d;
+}
+/********Hyperlinks types*******/
+.ct-link-post:hover .ct-hyperlink--circle {
+  background-color: #ccc; 
+  color: #f26d7d;
+  /*Laranja logo: #f6b01d*/
+}
+.ct-link-post .ct-hyperlink--circle {
+  background-color: #f26d7d;
+  color: #fff;
+}
+/*******Blog single******/
+.media-heading a {
+  font-family: 'Lato', sans-serif;
+  color: #333;
+}
+.media-heading a:hover {
+  text-decoration: none;
+  color: #f26d7d;
+}
+.ct-comment-meta,
+.ct-comment-replyButton {
+  color: #b3b3b3;
+  font-family: 'Lato', sans-serif;
+}
+.ct-comment-replyButton:hover {
+  color: #f26d7d;
+}
+.ct-panel--blogTags a {
+  text-decoration: none;
+}
+.ct-panel--blogTags a:hover {
+  color: #f26d7d;
+}
+/******Sidebar******/
+.widget .widget-inner ul {
+  list-style: none;
+  padding: 0;
+}
+.widget .widget-inner ul li a:hover {
+  color: #f26d7d !important;
+}
+.widget .widget-inner ul li a:hover span {
+  color: #f26d7d;
+}
+.widget .widget-inner ul li a span {
+  font-family: 'Lato', sans-serif;
+}
+.widget .widget-inner .ct-js-select a span {
+  font-family: 'Lato', sans-serif;
+}
+.tagcloud a {
+  font-family: 'Lato', sans-serif;
+}
+.ct-search-widget .form-control:focus {
+  border: 2px solid #f26d7d;
+}
+/* **********
+   GOOGLE MAP
+   ********** */
+.mapToggle {
+  background-color: #f26d7d;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+.mapToggle:hover {
+  background-color: #4d4d4d;
+}
+/*****FOOTER*****/
+.ct-footer--extended .widget .widget-inner span {
+  font-family: 'Lato', sans-serif;
+}
+.ct-footer--extended .ct-widget-latestTwitts a,
+.ct-footer--extended .ct-widget-latestTwitts span {
+  font-family: 'Lato', sans-serif;
+}
+.ct-footer--extended .ct-widget-latestTwitts .widget-inner span.tweet_text > a,
+.ct-widget-latestTwitts .widget-inner span.tweet_text > a {
+  color: #f26d7d;
+}
+.ct-footer--extended .ct-widget-latestTwitts .widget-inner span.tweet_text > a:hover,
+.ct-widget-latestTwitts .widget-inner span.tweet_text > a:hover {
+  color: #808080 !important;
+}
+footer {
+  color: #767676;
+}
+footer .totop a {
+  color: #f26d7d;
+}
+footer .copyright,
+footer .totop {
+  padding: 24px 0;
+}
+footer .copyright a {
+  color: #767676;
+}
+footer .ct-footer-logo {
+  padding: 16px;
+}
+@media (max-width: 1366px) {
+  .ct-header-text {
+    padding-top: 70px;
+  }
+}
+@media (max-width: 992px) {
+  .ct-header-text {
+    padding: 200px 0;
+    float: none !important;
+  }
+  .ct-header-text h1,
+  .ct-header-text h2,
+  .ct-header-text h3,
+  .ct-header-text h4,
+  .ct-header-text h5,
+  .ct-header-text h6 {
+    font-size: 80px;
+    line-height: 70px;
+  }
+  .ct-header-text .ct-u-hdr2 {
+    font-size: 26px;
+    line-height: 26px;
+  }
+  .ct-header-multipg h1,
+  .ct-header-multipg h2,
+  .ct-header-multipg h3,
+  .ct-header-multipg h4,
+  .ct-header-multipg h5,
+  .ct-header-multipg h6 {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .ct-header-multipg h1 .ct-u-hdr2,
+  .ct-header-multipg h2 .ct-u-hdr2,
+  .ct-header-multipg h3 .ct-u-hdr2,
+  .ct-header-multipg h4 .ct-u-hdr2,
+  .ct-header-multipg h5 .ct-u-hdr2,
+  .ct-header-multipg h6 .ct-u-hdr2 {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .ct-pageSectionHeader h1,
+  .ct-pageSectionHeader h2,
+  .ct-pageSectionHeader h3,
+  .ct-pageSectionHeader h4,
+  .ct-pageSectionHeader h5,
+  .ct-pageSectionHeader h6 {
+    font-size: 40px !important;
+    line-height: 15px;
+  }
+  .ct-pageSectionHeader .ct-u-hdr3 {
+    font-size: 28px;
+    line-height: 28px;
+  }
+}
+@media (max-width: 768px) {
+  .ct-header-text {
+    float: none;
+  }
+  .ct-header-text h1,
+  .ct-header-text h2,
+  .ct-header-text h3,
+  .ct-header-text h4,
+  .ct-header-text h5,
+  .ct-header-text h6 {
+    font-size: 35px;
+    line-height: 26px;
+  }
+  .ct-header-text .ct-u-hdr2 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .ct-hover h2 {
+    font-size: 20px;
+  }
+}
