@@ -10941,3 +10941,26 @@ h3.ct-u-hdr3.text-uppercase.ct-motive-text.error-code{
 a.error-page-link {
   color: #398e4b;
 }
+
+
+/* Form da lista newsletter mailchimp */
+select#mce-SUBTYPE {
+  background: white;
+  width: 268px;
+  /* padding: 5px; */
+  font-size: 16px;
+  line-height: 1;
+  border: 0;
+  border-radius: 0;
+  height: 55px;
+}
+
+.texto-select label {
+  color: #4d4d4d !important;
+  font-size: 24px;
+  font-family: 'Varela Round', sans-serif;
+}
+
+#newsletter .mc-field-group input {
+  color: #999;
+}
