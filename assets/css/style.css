@@ -10964,3 +10964,14 @@ select#mce-SUBTYPE {
 #newsletter .mc-field-group input {
   color: #999;
 }
+
+/*Botão do form do mailchimp*/
+
+.list-button input {
+  background-color: #398e4b;
+  border: 1px solid #398e4b;
+}
+
+.list-button input:hover {
+  background-color: #2c6d3a;
+}
