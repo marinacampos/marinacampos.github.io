@@ -10975,3 +10975,15 @@ select#mce-SUBTYPE {
 .list-button input:hover {
   background-color: #2c6d3a;
 }
+
+
+
+
+
+
+
+
+/* 6-receitas-para-nutrir-e-educar */
+#receitasparanutrireeducar .mc-field-group input {
+  color: #999;
+}
