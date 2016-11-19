@@ -10987,3 +10987,7 @@ select#mce-SUBTYPE {
 #receitasparanutrireeducar .mc-field-group input {
   color: #999;
 }
+
+section.receitasparanutrireeducar p.ct-textBox {
+  width: 70%;
+}
