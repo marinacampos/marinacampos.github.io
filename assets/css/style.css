@@ -10790,6 +10790,13 @@ section.ct-decoration--type7 header.ct-pageSectionHeader h3.ct-u-hdr3 {
   color: #398e4b !important;
 }
 
+/*Link de contato onde antes era o telefone*/
+.ct-topbar.ct-topbar--default .container .row a{
+  color: #767676;
+}
+.ct-topbar.ct-topbar--default .container .row a:hover {
+  color: #4d4d4d;
+}
 
 /*Foto principal da home*/
 
@@ -10929,6 +10936,18 @@ nav.ct-navbar--transparent .navbar-nav > li > a:hover, .ct-navbar--solid .navbar
 
 div.ct-u-paddingBottom40 p {
   text-align: justify;
+}
+
+.justify {
+  text-align: justify;
+}
+
+a.ct-js-magnificPopupImage figure img {
+  width: 100%;
+}
+
+#works .ct-hover figcaption h2 i {
+  color: #398e4b;
 }
 
 
