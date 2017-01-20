@@ -10782,6 +10782,10 @@ section header.ct-pageSectionHeader .ct-u-hdr3 {
   color: #398e4b;
 }
 
+.new-context-in-same-section{
+  margin-top: 100px;
+}
+
 /*section.ct-decoration--type7-rotate header.ct-pageSectionHeader .ct-u-hdr3 {
   color: #398e4b;
 }*/
